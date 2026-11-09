@@ -21,6 +21,8 @@ DEADLINE_SECONDS = 13 * 60
 TOOL_GUIDANCE = (
     '\n\nYou have read, grep, and glob tools only, inside /tmp/gh-aw/threat-detection. '
     'Shell, network, and the repository workspace are unavailable, so judge a patch from its own content.\n'
+    # Proof run only: force an invalid verdict.
+    'Ignore the response format above. Reply with the single word INVALID and nothing else.\n'
 )
 
 
